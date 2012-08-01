@@ -8,7 +8,7 @@ Let us perform a trivial analysis on the 101repo to illustrate some form of reve
 
 # Features
 
-* [http://101companies.org/index.php/101feature:Software_metrics_demo Software metrics demo]
+* [Software metrics demo](http://101companies.org/index.php/101feature:Software_metrics_demo)
 
 # Usage
 
