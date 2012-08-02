@@ -1,10 +1,10 @@
 # Headline 
 
-A trivial reverse engineering experiment
+An illustrative examination of 101repo
 
 # Motivation
 
-Let us perform a trivial analysis on the 101repo to illustrate some form of reverse engineering. That is, suppose we want to know how the Lines-Of-Code metrics (LOC) compare for Java and Haskell. We can easily determine LOC for all Java and Haskell files in the 101repo. As a result, we show the medians for the LOC metrics for Java and Haskell.
+Let us examine 101repo to determine how the LOC metric ("lines of code") compares for Java and Haskell. To this end, we determine LOC for all Java and Haskell files in the 101repo, and then we compute the median for LOC for both file types.
 
 # Features
 
@@ -14,7 +14,7 @@ Let us perform a trivial analysis on the 101repo to illustrate some form of reve
 
 Run "make" while assiging the directory path for the 101contributions to variable "root".
 
-Depending on the location of directory, the invocation of "make" may take the following form:
+Depending on directory locations, the invocation of "make" may take the following form:
 
 <pre>
 make root=../../101repo/contributions

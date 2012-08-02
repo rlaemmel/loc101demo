@@ -1,8 +1,6 @@
 #
-# Perform make
-# while using variable "root"
-# to point to contributions directory.
-#
+# Variable "root" must point to root directory with files of interest.
+# Set the variable when running "make".
 # For instance:
 # make root=../../101repo/contributions
 #
@@ -17,10 +15,16 @@ all:
 # Check that root is set
 check-root:
 ifndef root
-	$(error root is undefined)
+	$(error No "root" directory defined)
 else
 	@echo Seaching files in ${root}.
 endif
+
+
+# git push convenience
+push:
+	git commit -a
+	git push
 
 # Remove derived CSV files
 clean:
