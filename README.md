@@ -20,4 +20,4 @@ See the numbers of files and LOC-related numbers as they are sent to stdout.
 
 # References
 
-See the [YouTube video](http://www.youtube.com/watch?v=v7lqu1P-iao) for this eeffort.
+See the [YouTube video](http://www.youtube.com/watch?v=v7lqu1P-iao) for this effort.
